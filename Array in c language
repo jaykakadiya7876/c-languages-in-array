@@ -1,0 +1,36 @@
+// 1-D array  
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ int a[5];// so for many loop use in the section of array in the the c programe to the any array for declare in the section for the sny loop declare
+ 
+ for(i=0;i<5;i++)
+ {
+  printf("enter the value of a:",i);
+  scanf("%d",&a[i]);
+ }
+
+}
+
+
+// 2-D array
+
+#incldue<stdio.h>
+int main()
+{
+ int a[2][2]; // two loop use in the array
+ for(i=0;i<2;i++)
+ {
+   for(j=0;j<2;j++)
+   {
+    printf("enter the value of a:");
+    scanf("%d",a[i][i])
+   
+   }
+ 
+ }
+}
